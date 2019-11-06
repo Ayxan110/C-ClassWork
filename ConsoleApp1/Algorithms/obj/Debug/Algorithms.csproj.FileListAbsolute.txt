@@ -5,3 +5,10 @@ C:\Users\aykhanzd\source\repos\ConsoleApp1\Algorithms\bin\Debug\Algorithms.exe
 C:\Users\aykhanzd\source\repos\ConsoleApp1\Algorithms\bin\Debug\Algorithms.pdb
 C:\Users\aykhanzd\source\repos\ConsoleApp1\Algorithms\obj\Debug\Algorithms.exe
 C:\Users\aykhanzd\source\repos\ConsoleApp1\Algorithms\obj\Debug\Algorithms.pdb
+C:\Users\aykhanzd\Desktop\C-ClassWork\ConsoleApp1\Algorithms\bin\Debug\Algorithms.exe.config
+C:\Users\aykhanzd\Desktop\C-ClassWork\ConsoleApp1\Algorithms\bin\Debug\Algorithms.exe
+C:\Users\aykhanzd\Desktop\C-ClassWork\ConsoleApp1\Algorithms\bin\Debug\Algorithms.pdb
+C:\Users\aykhanzd\Desktop\C-ClassWork\ConsoleApp1\Algorithms\obj\Debug\Algorithms.csprojAssemblyReference.cache
+C:\Users\aykhanzd\Desktop\C-ClassWork\ConsoleApp1\Algorithms\obj\Debug\Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\aykhanzd\Desktop\C-ClassWork\ConsoleApp1\Algorithms\obj\Debug\Algorithms.exe
+C:\Users\aykhanzd\Desktop\C-ClassWork\ConsoleApp1\Algorithms\obj\Debug\Algorithms.pdb
