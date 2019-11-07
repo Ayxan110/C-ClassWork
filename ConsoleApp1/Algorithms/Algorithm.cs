@@ -52,7 +52,7 @@
             int beginPoint = IndexOf(oldPhrase, wrt);
             int endPointofOldValue = beginPoint + oldPhrase.Length;
             string leftSide = Substring(0, beginPoint, wrt);
-            string rightSide = Substring(endPointofOldValue,GetLength(wrt)-endPointofOldValue,wrt);
+            string rightSide = Substring(endPointofOldValue, GetLength(wrt) - endPointofOldValue, wrt);
             return $"{leftSide}{newPhrase}{rightSide}";
         }
         public string Insert(int index, string insertword, string wrt)
@@ -159,6 +159,12 @@
             }
             string newwrt = Substring(0, GetLength(wrt) - count, wrt);
             return newwrt;
+        }
+        public string Trim(char symbol, string wrt)
+        {
+            string newwrt = TrimStart(symbol, wrt);
+            string newwrt2 = TrimEnd(symbol, newwrt);
+            return newwrt2;
         }
     }
 }

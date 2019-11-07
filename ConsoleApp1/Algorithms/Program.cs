@@ -24,6 +24,7 @@ namespace Algorithms
             //WriteLine(algo.LastIndexOf("ov", str));
             WriteLine(algo.TrimStart('/', str));
             WriteLine(algo.TrimEnd('/', str));
+            WriteLine(algo.Trim('/', str));
             ReadKey();
         }
     }
