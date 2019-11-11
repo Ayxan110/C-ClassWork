@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Register
@@ -15,6 +8,19 @@ namespace Register
         public Admin()
         {
             InitializeComponent();
+        }
+        public string username;
+
+        private void Admin_Load(object sender, EventArgs e)
+        {
+            if (username=="Admin")
+            {
+                foreach (User item in DataBase.GetAllUsers())
+                {
+                    if (item == null) continue; 
+                    listBox1.Items.Add($"{item.email} {item.name} {item.surname}");
+                }
+            }
         }
     }
 }

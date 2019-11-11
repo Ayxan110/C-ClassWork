@@ -15,6 +15,12 @@ namespace Register
             users[0].email = "admin@gmail.com";
             users[0].password = "12345";
         }
+
+        internal static User[] GetAllUsers()
+        {
+            return users;
+        }
+
         internal static void AddUsers(User user)
         {
             counter++;
@@ -24,11 +30,11 @@ namespace Register
             }
             users[counter] = user;
         }
-        public static bool CheckUser(string log,string pass)
+        public static bool CheckUser(string log, string pass)
         {
-            foreach(User item in users)
+            foreach (User item in users)
             {
-                if(log == item.email && pass == item.password)
+                if (log == item.email && pass == item.password)
                 {
                     return true;
                 }

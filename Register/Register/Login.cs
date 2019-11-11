@@ -17,12 +17,12 @@ namespace Register
             if (DataBase.CheckUser(login, pass))
             {
                 Admin adminpage = new Admin();
+                if (login == "admin@gmail.com" && pass == "12345")
+                {
+                    adminpage.username = "Admin";
+                    adminpage.ShowDialog();
+                }
                 adminpage.ShowDialog();
-            }
-            else if (login == "admin@gmail.com" && pass == "12345")
-            {
-                Admin adminpage = new Admin();
-                adminpage.
             }
         }
     }
