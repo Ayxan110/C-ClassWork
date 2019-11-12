@@ -20,7 +20,6 @@ namespace Register
         {
             return users;
         }
-
         internal static void AddUsers(User user)
         {
             counter++;
