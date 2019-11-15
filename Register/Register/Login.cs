@@ -16,8 +16,8 @@ namespace Register
             string pass = password.Text;
             if (DataBase.CheckUser(login, pass))
             {
-                Admin adminpage = new Admin();
-                adminpage.ShowDialog();
+                TicketPage ticketpage = new TicketPage();
+                ticketpage.ShowDialog();
             }
         }
     }
