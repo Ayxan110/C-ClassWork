@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace Register
 {
-    public partial class TicketForm : Form
+    public partial class UserControl1 : UserControl
     {
-        public TicketForm() => InitializeComponent();
-
-        private void report_Click(object sender, EventArgs e)
+        public UserControl1()
         {
-            UserControl user = new UserControl();
+            InitializeComponent();
         }
     }
 }

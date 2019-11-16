@@ -14,7 +14,8 @@ namespace Register
 
         private void Newbtn_Click(object sender, EventArgs e)
         {
-
+            TicketForm ticketForm = new TicketForm();
+            ticketForm.ShowDialog();
         }
     }
 }
