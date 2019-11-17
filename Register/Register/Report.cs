@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Register
 {
-    public partial class UserControl1 : UserControl
+    public partial class Report : UserControl
     {
-        public UserControl1()
+        public Report()
         {
             InitializeComponent();
         }
