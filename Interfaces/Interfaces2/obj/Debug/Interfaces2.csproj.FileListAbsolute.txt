@@ -1,0 +1,7 @@
+C:\Users\aykhanzd\source\repos\Interfaces\Interfaces2\bin\Debug\Interfaces2.exe.config
+C:\Users\aykhanzd\source\repos\Interfaces\Interfaces2\bin\Debug\Interfaces2.exe
+C:\Users\aykhanzd\source\repos\Interfaces\Interfaces2\bin\Debug\Interfaces2.pdb
+C:\Users\aykhanzd\source\repos\Interfaces\Interfaces2\obj\Debug\Interfaces2.csprojAssemblyReference.cache
+C:\Users\aykhanzd\source\repos\Interfaces\Interfaces2\obj\Debug\Interfaces2.csproj.CoreCompileInputs.cache
+C:\Users\aykhanzd\source\repos\Interfaces\Interfaces2\obj\Debug\Interfaces2.exe
+C:\Users\aykhanzd\source\repos\Interfaces\Interfaces2\obj\Debug\Interfaces2.pdb

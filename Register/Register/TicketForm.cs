@@ -17,7 +17,8 @@ namespace Register
 
         private void report_Click(object sender, EventArgs e)
         {
-            UserControl.
+            Report report = new Report();
+            report.tex
         }
     }
 }

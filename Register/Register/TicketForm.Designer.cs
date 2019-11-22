@@ -37,7 +37,6 @@
             this.report = new System.Windows.Forms.Button();
             this.prob = new System.Windows.Forms.TextBox();
             this.name = new System.Windows.Forms.TextBox();
-            this.userControl11 = new Register.UserControl1();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -113,17 +112,12 @@
             // 
             // userControl11
             // 
-            this.userControl11.Location = new System.Drawing.Point(52, 39);
-            this.userControl11.Name = "userControl11";
-            this.userControl11.Size = new System.Drawing.Size(666, 342);
-            this.userControl11.TabIndex = 5;
-            // 
+
             // TicketForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.userControl11);
             this.Controls.Add(this.name);
             this.Controls.Add(this.report);
             this.Controls.Add(this.label3);
