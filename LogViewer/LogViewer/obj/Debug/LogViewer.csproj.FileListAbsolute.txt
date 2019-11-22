@@ -1,0 +1,9 @@
+C:\Users\Ayxan\source\repos\LogViewer\LogViewer\bin\Debug\LogViewer.exe.config
+C:\Users\Ayxan\source\repos\LogViewer\LogViewer\bin\Debug\LogViewer.exe
+C:\Users\Ayxan\source\repos\LogViewer\LogViewer\bin\Debug\LogViewer.pdb
+C:\Users\Ayxan\source\repos\LogViewer\LogViewer\obj\Debug\LogViewer.csprojAssemblyReference.cache
+C:\Users\Ayxan\source\repos\LogViewer\LogViewer\obj\Debug\LogViewer.Form1.resources
+C:\Users\Ayxan\source\repos\LogViewer\LogViewer\obj\Debug\LogViewer.Properties.Resources.resources
+C:\Users\Ayxan\source\repos\LogViewer\LogViewer\obj\Debug\LogViewer.csproj.GenerateResource.cache
+C:\Users\Ayxan\source\repos\LogViewer\LogViewer\obj\Debug\LogViewer.exe
+C:\Users\Ayxan\source\repos\LogViewer\LogViewer\obj\Debug\LogViewer.pdb

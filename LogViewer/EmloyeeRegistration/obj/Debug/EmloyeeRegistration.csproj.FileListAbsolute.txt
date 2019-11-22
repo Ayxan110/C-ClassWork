@@ -1,0 +1,8 @@
+C:\Users\Ayxan\source\repos\LogViewer\EmloyeeRegistration\bin\Debug\EmloyeeRegistration.exe.config
+C:\Users\Ayxan\source\repos\LogViewer\EmloyeeRegistration\bin\Debug\EmloyeeRegistration.exe
+C:\Users\Ayxan\source\repos\LogViewer\EmloyeeRegistration\bin\Debug\EmloyeeRegistration.pdb
+C:\Users\Ayxan\source\repos\LogViewer\EmloyeeRegistration\obj\Debug\EmloyeeRegistration.Form1.resources
+C:\Users\Ayxan\source\repos\LogViewer\EmloyeeRegistration\obj\Debug\EmloyeeRegistration.Properties.Resources.resources
+C:\Users\Ayxan\source\repos\LogViewer\EmloyeeRegistration\obj\Debug\EmloyeeRegistration.csproj.GenerateResource.cache
+C:\Users\Ayxan\source\repos\LogViewer\EmloyeeRegistration\obj\Debug\EmloyeeRegistration.exe
+C:\Users\Ayxan\source\repos\LogViewer\EmloyeeRegistration\obj\Debug\EmloyeeRegistration.pdb
