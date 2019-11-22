@@ -23,6 +23,11 @@ namespace Interfaces2
                             Amount = 14000,
                             Date = "2 year"
                         },
+                        new Credit
+                        {
+                            Amount = 1000,
+                            Date = "2 year"
+                        }
                     }
                 },
                 new Customer
@@ -35,6 +40,11 @@ namespace Interfaces2
                         {
                             Amount = 11000,
                             Date = "1 year"
+                        },
+                        new Credit
+                        {
+                            Amount = 14000,
+                            Date = "2 year"
                         }
                     }
                 },
