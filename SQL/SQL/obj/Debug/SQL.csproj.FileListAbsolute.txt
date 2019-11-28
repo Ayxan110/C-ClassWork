@@ -1,0 +1,10 @@
+C:\Users\aykhanzd\source\repos\SQL\SQL\bin\Debug\SQL.exe.config
+C:\Users\aykhanzd\source\repos\SQL\SQL\bin\Debug\SQL.exe
+C:\Users\aykhanzd\source\repos\SQL\SQL\bin\Debug\SQL.pdb
+C:\Users\aykhanzd\source\repos\SQL\SQL\obj\Debug\SQL.csprojAssemblyReference.cache
+C:\Users\aykhanzd\source\repos\SQL\SQL\obj\Debug\SQL.Form1.resources
+C:\Users\aykhanzd\source\repos\SQL\SQL\obj\Debug\SQL.Properties.Resources.resources
+C:\Users\aykhanzd\source\repos\SQL\SQL\obj\Debug\SQL.csproj.GenerateResource.cache
+C:\Users\aykhanzd\source\repos\SQL\SQL\obj\Debug\SQL.csproj.CoreCompileInputs.cache
+C:\Users\aykhanzd\source\repos\SQL\SQL\obj\Debug\SQL.exe
+C:\Users\aykhanzd\source\repos\SQL\SQL\obj\Debug\SQL.pdb
