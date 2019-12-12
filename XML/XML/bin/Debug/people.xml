@@ -1,0 +1,26 @@
+<People>
+  <Person id="1">
+    <Name>Ayxan</Name>
+    <Surname>Dadashov</Surname>
+    <Credits>
+      <Credit id="1">
+        <Amount>4500</Amount>
+        <Date>12.10.2019</Date>
+      </Credit>
+      <Credit id="2">
+        <Amount>8500</Amount>
+        <Date>11.10.2019</Date>
+      </Credit>
+    </Credits>
+  </Person>
+  <Person id="1">
+    <Name>Mustafa</Name>
+    <Surname>Memmedov</Surname>
+    <Credits>
+      <Credit id="1">
+        <Amount>1500</Amount>
+        <Date>12.10.2015</Date>
+      </Credit>
+    </Credits>
+  </Person>
+</People>
