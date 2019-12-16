@@ -56,27 +56,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\AddAdvertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddAdvertForm.Designer.cs">
+      <DependentUpon>AddAdvertForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201912161044409_Ayxan.cs" />
-    <Compile Include="Migrations\201912161044409_Ayxan.designer.cs">
-      <DependentUpon>201912161044409_Ayxan.cs</DependentUpon>
+    <Compile Include="Migrations\201912161238490_Ayxan.cs" />
+    <Compile Include="Migrations\201912161238490_Ayxan.designer.cs">
+      <DependentUpon>201912161238490_Ayxan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912161315354_Ayxan2.cs" />
+    <Compile Include="Migrations\201912161315354_Ayxan2.designer.cs">
+      <DependentUpon>201912161315354_Ayxan2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\DbTables\Photo.cs" />
+    <Compile Include="Models\DbTables\Status.cs" />
     <Compile Include="Models\MyDbContext.cs" />
     <Compile Include="Models\DbTables\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AddAdvertForm.resx">
+      <DependentUpon>AddAdvertForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201912161044409_Ayxan.resx">
-      <DependentUpon>201912161044409_Ayxan.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201912161238490_Ayxan.resx">
+      <DependentUpon>201912161238490_Ayxan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912161315354_Ayxan2.resx">
+      <DependentUpon>201912161315354_Ayxan2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

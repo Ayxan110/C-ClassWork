@@ -7,13 +7,13 @@ namespace SaleApp.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.0")]
-    public sealed partial class Ayxan : IMigrationMetadata
+    public sealed partial class Ayxan2 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Ayxan));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Ayxan2));
         
         string IMigrationMetadata.Id
         {
-            get { return "201912161044409_Ayxan"; }
+            get { return "201912161315354_Ayxan2"; }
         }
         
         string IMigrationMetadata.Source

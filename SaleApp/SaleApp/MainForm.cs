@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SaleApp.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace SaleApp
         public MainForm()
         {
             InitializeComponent();
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            AddAdvertForm form = new AddAdvertForm();
+            form.ShowDialog();
         }
     }
 }

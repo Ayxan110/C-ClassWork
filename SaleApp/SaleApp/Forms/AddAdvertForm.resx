@@ -117,10 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Target" xml:space="preserve">
-    <value>H4sIAAAAAAAEAM1Vy27bMBC8F+g/CLzHtJ1LG8gJXNspAtRxEbm509JKIcpXxZVhfVsP/aT+Qley5GfjOEEPPZJczs7ODpe/f/4Kb1ZaBUvIvbRmwHqdLgvAxDaRJhuwAtOLD+zm+v27cJLoVfDYxl1WcXTT+AF7QnRXnPv4CbTwHS3j3HqbYie2movE8n63+5H3ehwIghFWEIQPhUGpoV7QcmRNDA4LoaY2AeWbfTqJatTgXmjwTsQwYBPtsGTBUElBySNQKQuEMRYFErWrbx4izK3JIkcbQs1LBxSXCuWhoXy1DT+Xfbdfsefbiy1UXHi0+pWAvctGDn54/U2iso1cJNiEhMWSBEUhDeS1cgM2LceLag9WyILDpJVmI5U3SmFekFB82wK+7kHbK/5Ms8KpcI5cs9O8ZieI1p0bXUSvr0+vMXjsT5W5yYQ2FxkcnFJqYnorc49jgWIhKiuMEn0UtifTrgQN/kaDg1rDJu/L7j0isg5hwdfcLmVSkYhKj6A7VUAn+qFGSoLBbcBUGJmCx7n9DmQ3clP/4DX8P87k3ifqDHv+pT0nDHgsdsh3B0o4Bi8zQt8ZLwbiqootaBtzZ1JL0jrIsYwAd7m2Ie1x+5YARUI8hznKVMRIxzF4T3ZgwaNQRT2jFpDcmVmBrsCh96AXqtyv6XT++pXtcw5nrlr5f1EC0ZRUAszMp0KqZMP7dj0l+RkQVcs+A+3X7qCRS3BZuUG6t+ZMoEa+MTgwCTl9DtopAvMzE4klvIUbzbMvkIm4bN/M8yAvN2Jf9nAsRZYL7RuM7f3qk+TVL3n9B7/Dd9NXBwAA</value>
-  </data>
-  <data name="DefaultSchema" xml:space="preserve">
-    <value>dbo</value>
-  </data>
 </root>

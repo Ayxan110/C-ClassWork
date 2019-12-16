@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SaleApp.Models.DbTables;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -13,19 +14,18 @@ namespace SaleApp.Models
         [Required]
         [MinLength(3)]
         [MaxLength(30)]
-        public string Name { get; set; }
+        public string ProductName { get; set; }
         [Required]
         public int Price { get; set; }
-        [Required]
         public ICollection<Photo> Photos { get; set; }
         [Required]
         [MinLength(2)]
         [MaxLength(30)]
-        public string UserName { get; set; }
+        public string Name { get; set; }
         [Required]
         [MinLength(2)]
         [MaxLength(30)]
-        public string UserSurname { get; set; }
+        public string Surname { get; set; }
         [Required]
         [EmailAddress]
         public string Email { get; set; }
@@ -34,5 +34,9 @@ namespace SaleApp.Models
         [MinLength(7)]
         [MaxLength(30)]
         public string PhoneNumber { get; set; }
+
+        public Status Status { get; set; }
+
+        public int VerificationCode { get; set; }
     }
 }
