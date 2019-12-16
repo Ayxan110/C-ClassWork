@@ -7,7 +7,7 @@ namespace SaleApp.Models
         public int ID { get; set; }
         [Required]
         [MinLength(5)]
-        [MaxLength(30)]
+        [MaxLength(600)]
         public string Name { get; set; }
 
         public int ProductId { get; set; }

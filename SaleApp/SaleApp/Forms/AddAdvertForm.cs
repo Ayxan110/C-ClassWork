@@ -1,14 +1,9 @@
 ﻿using SaleApp.Models;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Net.Mail;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SaleApp.Forms
@@ -20,13 +15,6 @@ namespace SaleApp.Forms
             InitializeComponent();
         }
         private string filename;
-        private string email;
-        private int verificationcode;
-        private int RandomNumber()
-        {
-            Random random = new Random();
-            return random.Next(1000, 9999);
-        }
 
         private void Btn_Load_Click(object sender, EventArgs e)
         {
@@ -44,6 +32,7 @@ namespace SaleApp.Forms
 
         private void Btn_Add_Click(object sender, EventArgs e)
         {
+            lbl_error.Text = "";
             MyDbContext dbContext = new MyDbContext();
             Product product = new Product();
             Photo photo = new Photo();
@@ -54,41 +43,28 @@ namespace SaleApp.Forms
                 product.Surname = txbx_Surname.Text;
                 product.ProductName = txbx_ProductName.Text;
                 product.Email = txbx_Email.Text;
-                email = txbx_Email.Text;
                 product.PhoneNumber = txbx_Number.Text;
                 product.Price = int.Parse(txbx_Price.Text);
                 product.Status = Models.DbTables.Status.Waiting;
-                product.VerificationCode = RandomNumber();
-                verificationcode = product.VerificationCode;
+                Random random = new Random();
+                int r = random.Next(1000, 9999);
+
+                product.VerificationCode = r;
                 dbContext.Products.Add(product);
                 dbContext.SaveChanges();
+
                 photo.Name = filename;
                 photo.ProductId = product.ID;
                 dbContext.Photos.Add(photo);
                 dbContext.SaveChanges();
-            }
-            catch
-            {
-                lbl_error.Text = "";
-                ValidationContext validationContext = new ValidationContext(product);
-                List<ValidationResult> results = new List<ValidationResult>();
-                Validator.TryValidateObject(product, validationContext, results, true);
-                foreach(var item in results)
-                {
-                    lbl_error.Text += item.ErrorMessage + "\n";
-                }
-            }
 
-
-            try
-            {
                 MailMessage mail = new MailMessage();
                 SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
 
                 mail.From = new MailAddress("test.testov1110@gmail.com");
-                mail.To.Add(email);
+                mail.To.Add(txbx_Email.Text);
                 mail.Subject = "Verification code";
-                mail.Body = verificationcode.ToString();
+                mail.Body = product.VerificationCode.ToString();
 
                 SmtpServer.Port = 587;
                 SmtpServer.Credentials = new System.Net.NetworkCredential("test.testov1110@gmail.com", "ayxan110");
@@ -96,10 +72,20 @@ namespace SaleApp.Forms
 
                 SmtpServer.Send(mail);
                 MessageBox.Show("mail Send");
+
+                VerifyForm verifyForm = new VerifyForm(product.VerificationCode, product.ID);
+                verifyForm.ShowDialog();
+
             }
-            catch (Exception ex)
+            catch
             {
-                MessageBox.Show(ex.ToString());
+                ValidationContext validationContext = new ValidationContext(product);
+                List<ValidationResult> results = new List<ValidationResult>();
+                Validator.TryValidateObject(product, validationContext, results, true);
+                foreach (var item in results)
+                {
+                    lbl_error.Text += item.ErrorMessage + "\n";
+                }
             }
         }
     }

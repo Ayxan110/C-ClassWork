@@ -17,15 +17,19 @@ namespace SaleApp.Models
         public string ProductName { get; set; }
         [Required]
         public int Price { get; set; }
+
         public ICollection<Photo> Photos { get; set; }
+
         [Required]
         [MinLength(2)]
         [MaxLength(30)]
         public string Name { get; set; }
+
         [Required]
         [MinLength(2)]
         [MaxLength(30)]
         public string Surname { get; set; }
+
         [Required]
         [EmailAddress]
         public string Email { get; set; }

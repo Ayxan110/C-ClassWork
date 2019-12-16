@@ -32,3 +32,5 @@ C:\Users\aykhanzd\Desktop\CS-ClassWork\SaleApp\SaleApp\obj\Debug\SaleApp.pdb
 C:\Users\aykhanzd\Desktop\CS-ClassWork\SaleApp\SaleApp\obj\Debug\SaleApp.Forms.AddAdvertForm.resources
 C:\Users\aykhanzd\Desktop\CS-ClassWork\SaleApp\SaleApp\obj\Debug\SaleApp.Migrations.Ayxan.resources
 C:\Users\aykhanzd\Desktop\CS-ClassWork\SaleApp\SaleApp\obj\Debug\SaleApp.Migrations.Ayxan2.resources
+C:\Users\aykhanzd\Desktop\CS-ClassWork\SaleApp\SaleApp\obj\Debug\SaleApp.Forms.VerifyForm.resources
+C:\Users\aykhanzd\Desktop\CS-ClassWork\SaleApp\SaleApp\obj\Debug\SaleApp.Migrations.chngedPhoto.resources

@@ -151,6 +151,7 @@
             this.txbx_Email.Name = "txbx_Email";
             this.txbx_Email.Size = new System.Drawing.Size(127, 20);
             this.txbx_Email.TabIndex = 2;
+            this.txbx_Email.Text = "ayxan110.dadashov@gmail.com";
             // 
             // label7
             // 
