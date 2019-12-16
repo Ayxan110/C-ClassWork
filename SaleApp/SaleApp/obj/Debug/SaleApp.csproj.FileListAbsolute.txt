@@ -1,0 +1,16 @@
+C:\Users\aykhanzd\source\repos\SaleApp\SaleApp\obj\Debug\SaleApp.csprojAssemblyReference.cache
+C:\Users\aykhanzd\source\repos\SaleApp\SaleApp\obj\Debug\SaleApp.MainForm.resources
+C:\Users\aykhanzd\source\repos\SaleApp\SaleApp\obj\Debug\SaleApp.Properties.Resources.resources
+C:\Users\aykhanzd\source\repos\SaleApp\SaleApp\obj\Debug\SaleApp.csproj.GenerateResource.cache
+C:\Users\aykhanzd\source\repos\SaleApp\SaleApp\obj\Debug\SaleApp.csproj.CoreCompileInputs.cache
+C:\Users\aykhanzd\source\repos\SaleApp\SaleApp\bin\Debug\SaleApp.exe.config
+C:\Users\aykhanzd\source\repos\SaleApp\SaleApp\bin\Debug\SaleApp.exe
+C:\Users\aykhanzd\source\repos\SaleApp\SaleApp\bin\Debug\SaleApp.pdb
+C:\Users\aykhanzd\source\repos\SaleApp\SaleApp\bin\Debug\EntityFramework.dll
+C:\Users\aykhanzd\source\repos\SaleApp\SaleApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aykhanzd\source\repos\SaleApp\SaleApp\bin\Debug\EntityFramework.xml
+C:\Users\aykhanzd\source\repos\SaleApp\SaleApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aykhanzd\source\repos\SaleApp\SaleApp\obj\Debug\SaleApp.csproj.CopyComplete
+C:\Users\aykhanzd\source\repos\SaleApp\SaleApp\obj\Debug\SaleApp.exe
+C:\Users\aykhanzd\source\repos\SaleApp\SaleApp\obj\Debug\SaleApp.pdb
+C:\Users\aykhanzd\source\repos\SaleApp\SaleApp\obj\Debug\SaleApp.Migrations.Ayxan.resources
