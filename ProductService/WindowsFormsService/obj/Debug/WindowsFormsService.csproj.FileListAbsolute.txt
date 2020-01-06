@@ -1,0 +1,10 @@
+C:\Users\aykhanzd\source\repos\ProductService\WindowsFormsService\bin\Debug\WindowsFormsService.exe.config
+C:\Users\aykhanzd\source\repos\ProductService\WindowsFormsService\bin\Debug\WindowsFormsService.exe
+C:\Users\aykhanzd\source\repos\ProductService\WindowsFormsService\bin\Debug\WindowsFormsService.pdb
+C:\Users\aykhanzd\source\repos\ProductService\WindowsFormsService\obj\Debug\WindowsFormsService.csprojAssemblyReference.cache
+C:\Users\aykhanzd\source\repos\ProductService\WindowsFormsService\obj\Debug\WindowsFormsService.Form1.resources
+C:\Users\aykhanzd\source\repos\ProductService\WindowsFormsService\obj\Debug\WindowsFormsService.Properties.Resources.resources
+C:\Users\aykhanzd\source\repos\ProductService\WindowsFormsService\obj\Debug\WindowsFormsService.csproj.GenerateResource.cache
+C:\Users\aykhanzd\source\repos\ProductService\WindowsFormsService\obj\Debug\WindowsFormsService.csproj.CoreCompileInputs.cache
+C:\Users\aykhanzd\source\repos\ProductService\WindowsFormsService\obj\Debug\WindowsFormsService.exe
+C:\Users\aykhanzd\source\repos\ProductService\WindowsFormsService\obj\Debug\WindowsFormsService.pdb

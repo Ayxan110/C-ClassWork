@@ -1,0 +1,14 @@
+C:\Users\aykhanzd\source\repos\ProductService\ProductService\bin\ProductService.dll.config
+C:\Users\aykhanzd\source\repos\ProductService\ProductService\bin\ProductService.dll
+C:\Users\aykhanzd\source\repos\ProductService\ProductService\bin\ProductService.pdb
+C:\Users\aykhanzd\source\repos\ProductService\ProductService\bin\EntityFramework.dll
+C:\Users\aykhanzd\source\repos\ProductService\ProductService\bin\EntityFramework.SqlServer.dll
+C:\Users\aykhanzd\source\repos\ProductService\ProductService\bin\System.ComponentModel.Annotations.dll
+C:\Users\aykhanzd\source\repos\ProductService\ProductService\bin\EntityFramework.xml
+C:\Users\aykhanzd\source\repos\ProductService\ProductService\bin\EntityFramework.SqlServer.xml
+C:\Users\aykhanzd\source\repos\ProductService\ProductService\obj\Debug\ProductService.csproj.CoreCompileInputs.cache
+C:\Users\aykhanzd\source\repos\ProductService\ProductService\obj\Debug\ProductService.csproj.CopyComplete
+C:\Users\aykhanzd\source\repos\ProductService\ProductService\obj\Debug\ProductService.dll
+C:\Users\aykhanzd\source\repos\ProductService\ProductService\obj\Debug\ProductService.pdb
+C:\Users\aykhanzd\source\repos\ProductService\ProductService\obj\Debug\ProductService.Migrations.Initial.resources
+C:\Users\aykhanzd\source\repos\ProductService\ProductService\obj\Debug\ProductService.csproj.GenerateResource.cache
